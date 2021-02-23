@@ -1,0 +1,8 @@
+version python 3.7
+
+sebelum menjalankan program pastikan sudah menginstall beberapa library 
+python sebagai barikut:
+1. Pandas
+2. Matplotlib
+3. Seaborn
+
