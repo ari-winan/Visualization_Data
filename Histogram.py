@@ -10,10 +10,11 @@ belajar = pd.read_csv("Dataset/insurance.csv")
 #menampilkan semua data
 belajar.head()
 
-#memvisualisasikan distribusi data dengan interval 10
-sns.histplot(belajar['bmi'])
-plt.xlabel('interval 10')
+#memvisualisasikan distribusi data dengan interval 5
+sns.histplot(belajar['bmi'], bins=5)
+plt.xlabel('interval 5')
 plt.ylabel('frekuensi')
 
 #menampilkan hasil visualisasi
 plt.show()
+
